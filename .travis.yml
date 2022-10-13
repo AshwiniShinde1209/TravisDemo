@@ -3,10 +3,10 @@ os: linux
 language: python
 python: 3.6
 install:
-	- pip install tk
+  - pip install tk
 script:
-	- echo "Travis-CI"
-	- arch
-	- python --version
-	- pip -V
-	- pip show tkinter
+  - echo "Travis-CI"
+  - arch
+  - python --version
+  - pip -V
+  - pip show tkinter
