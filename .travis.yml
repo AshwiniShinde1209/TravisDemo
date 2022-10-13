@@ -1,0 +1,12 @@
+arch: ppc64le
+os: linux
+language: python
+python: 3.6
+install:
+	- pip install tk
+script:
+	- echo "Travis-CI"
+	- arch
+	- python --version
+	- pip -V
+	- pip show tkinter
